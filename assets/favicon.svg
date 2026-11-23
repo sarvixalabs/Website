@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="400" height="400" role="img">
-<title>Sarvixa Labs icon</title>
-<desc>Geometric bird in flight made of four flat shapes: two navy wing blades, a teal head and body, and a navy tail blade. Gaps between shapes are 6 units on a 200 by 200 grid.</desc>
-<!-- Grid 200x200. Icon bbox x 24-176, y 27-173, centred at (100,100). Gap between shapes: 6. Colors: navy #0B1F3A, teal #0E8C8C. -->
-<path id="wing-upper" d="M 24 27 C 25.8 43.2 32.7 57.8 46.6 67 C 50.6 69.6 54.9 71.4 59.3 73.2 L 70.6 78 L 87 84.9 C 88.8 85.7 91.5 87.5 93.3 85.8 C 94.1 85 94.4 83.5 94.8 82.5 C 95.4 80.8 98.5 73.3 98.4 72.1 C 98.3 70.9 97.3 69.8 96.5 69 C 94.2 66.7 91 65.3 88.3 63.7 L 73.3 55.2 L 24 27 Z" fill="#0B1F3A"/>
-<path id="wing-lower" d="M 38 71 C 38.2 87.2 44.7 102.7 61.8 107 C 65 107.7 68.6 108.1 71.9 108.7 C 73.2 108.9 75 109.5 76.4 109.1 C 78.3 108.5 83.5 102.9 85 101.2 C 86.3 99.7 89.8 95.8 89.3 93.9 C 88.9 92.2 87.2 91.8 85.9 91.3 L 76.7 87.4 L 38 71 Z" fill="#0B1F3A"/>
-<path id="body" d="M 176 41 L 146 35 C 130 33 116 43 110 59 L 98 91 C 92 107 78 117 62 125 L 94 125 C 118 125 138 107 142 83 L 146 61 C 148 51 158 47 176 41 Z" fill="#0E8C8C"/>
-<path id="tail" d="M 88 131 L 60 131 C 44 143 32 157 24 173 C 46 169 66 157 80 141 L 88 131 Z" fill="#0B1F3A"/>
-</svg>
