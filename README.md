@@ -19,8 +19,4 @@ Website of Sarvixa Labs, a clinical AI research group: https://sarvixalabs.com
 - `CNAME`: custom domain (sarvixalabs.com)
 - `robots.txt` and `sitemap.xml`: search engine files
 
-## 2. License
 
-- Code released under the MIT License
-- Text, logos and images belong to Sarvixa Labs and are not licensed for reuse
-- Publications remain under their publishers' terms
