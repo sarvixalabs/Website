@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sarvixa Labs | Clinical AI Research Group</title>
+  <meta name="description" content="Sarvixa Labs is a clinical AI research group. We study clinical problems from their foundations, solve them from first principles, and examine every solution through the lens of trustworthiness.">
+  <link rel="canonical" href="https://sarvixalabs.com/">
+  <meta name="theme-color" content="#0b0b0d">
+
+  <!-- Open Graph and Twitter -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Sarvixa Labs">
+  <meta property="og:title" content="Sarvixa Labs | Clinical AI Research Group">
+  <meta property="og:description" content="Sarvixa Labs is a clinical AI research group. We study clinical problems from their foundations, solve them from first principles, and examine every solution through the lens of trustworthiness.">
+  <meta property="og:url" content="https://sarvixalabs.com/">
+  <meta property="og:image" content="https://sarvixalabs.com/assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Sarvixa Labs | Clinical AI Research Group">
+  <meta name="twitter:description" content="Sarvixa Labs is a clinical AI research group. We study clinical problems from their foundations, solve them from first principles, and examine every solution through the lens of trustworthiness.">
+  <meta name="twitter:image" content="https://sarvixalabs.com/assets/og-image.png">
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="favicon.ico" sizes="48x48">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap">
+  <link rel="stylesheet" href="css/styles.css?v=20">
+
+  <meta name="color-scheme" content="dark">
+
+  <!-- Structured data: tells search engines this is a research group -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ResearchOrganization",
+    "name": "Sarvixa Labs",
+    "url": "https://sarvixalabs.com/",
+    "logo": "https://sarvixalabs.com/assets/logo.svg",
+    "image": "https://sarvixalabs.com/assets/og-image.png",
+    "description": "Sarvixa Labs is a clinical AI research group working on medical imaging, medical signals and electronic health records.",
+    "email": "sarvixalabs@gmail.com",
+    "sameAs": ["https://github.com/sarvixalabs"],
+    "founder": [
+      {
+        "@type": "Person",
+        "name": "Sarang Banakhede",
+        "sameAs": [
+          "https://orcid.org/0009-0008-7512-9681",
+          "https://scholar.google.com/citations?hl=en&user=tz1YzWkAAAAJ",
+          "https://www.linkedin.com/in/sarang-banakhede-79327823a"
+        ]
+      },
+      {
+        "@type": "Person",
+        "name": "Dr. Vibha Tiwari",
+        "sameAs": [
+          "https://orcid.org/0000-0002-9772-4392",
+          "https://scholar.google.com/citations?user=cV9T4Iwp6YYC&hl=en",
+          "https://www.linkedin.com/in/dr-vibha-tiwari-834b3960/"
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <script>
+    /* Safety net: content is never hidden if scripts fail to load */
+    (function () {
+      var d = document.documentElement;
+      d.classList.add('js');
+      setTimeout(function () { if (!d.classList.contains('anim-ready')) d.classList.remove('js'); }, 3500);
+    })();
+  </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="page-bg" aria-hidden="true"></div>
+
+  <header class="nav">
+    <div class="container nav__inner">
+      <a class="nav__brand" href="#home" aria-label="Sarvixa Labs home">
+        <img class="brand-logo" src="assets/logo.svg" alt="Sarvixa Labs" width="130" height="38">
+      </a>
+      <nav class="nav__links" id="nav-menu" aria-label="Primary">
+        <a href="#home" aria-current="true">Home</a>
+        <a href="#team">Team</a>
+        <a href="#work">Our Work</a>
+        <a href="#contact">Contact Us</a>
+      </nav>
+      <button class="icon-btn nav__toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ HOME (hero, about and mission on the first screen) ============ -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero__fallback" aria-hidden="true"></div>
+      <canvas class="hero__canvas" aria-hidden="true"></canvas>
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <p class="eyebrow" data-reveal>Clinical AI Research Group</p>
+          <h1 class="hero__title" id="hero-title" data-split data-delay="0.1">Advancing medicine <span class="text-grad">with AI</span></h1>
+          <div class="hero__about-text" id="about" data-reveal data-delay="0.35">
+            <p class="eyebrow">About</p>
+            <p>Sarvixa Labs is a clinical AI research group. We study clinical problems from their foundations, solve them from first principles, and examine every solution through the lens of trustworthiness.</p>
+            <p>Our work currently spans medical imaging, medical signals and electronic health records (EHR). Our current applications include oncology, neurology and radiology.</p>
+            <p>We aim to extend our research to multi-omics, precision medicine and longevity research, with a focus on multimodal and foundation models that learn from many kinds of clinical data together.</p>
+          </div>
+        </div>
+
+        <div class="hero__about">
+          <div class="mission" data-stagger>
+            <article class="mission__card" data-tilt="4">
+              <span class="mission__num">01</span>
+              <h2 class="mission__title">Advance clinical AI</h2>
+              <p>Research that moves AI forward across medicine and healthcare, toward precision medicine built on every kind of clinical data.</p>
+            </article>
+            <article class="mission__card" data-tilt="4">
+              <span class="mission__num">02</span>
+              <h2 class="mission__title">Make AI trustworthy</h2>
+              <p>Study the reliability of models so that they can be trusted in clinical settings.</p>
+            </article>
+            <article class="mission__card" data-tilt="4">
+              <span class="mission__num">03</span>
+              <h2 class="mission__title">Reach patient care</h2>
+              <p>In the long term, take validated research toward clinical trials and real use.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TEAM: rendered from data/team.json by js/team.js ============ -->
+    <section class="section" id="team" aria-labelledby="team-title">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow" data-reveal>Team</p>
+          <h2 id="team-title" data-split>Current team</h2>
+        </div>
+        <div class="team-grid" id="team-grid" aria-live="polite">
+          <noscript><p class="notice">Sarang Banakhede, Co-founder, Clinical AI Researcher, Sarvixa Labs. Dr. Vibha Tiwari, Co-founder, Assistant Professor, Centre for Artificial Intelligence, Madhav Institute of Technology and Science.</p></noscript>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ OUR WORK ============ -->
+    <section class="section" id="work" aria-labelledby="work-title">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow" data-reveal>Our Work</p>
+          <h2 id="work-title" data-split>Publications</h2>
+        </div>
+
+        <!-- Publications: written here as plain HTML by tools/prerender.py (for search engines and no-JavaScript visitors),
+             then rebuilt from data/publications.json by js/publications.js -->
+        <ul class="pub-list" id="pub-list"><!--PUBS:START-->
+          <li class="pub">
+            <div class="pub__year">2027</div>
+            <div>
+              <h4 class="pub__title">Beyond Dice: How training-time augmentation reshapes uncertainty and boundary calibration of a U-Net for dermoscopic lesion segmentation</h4>
+              <p class="pub__meta">S. Banakhede, A. Tiwari, V. Tiwari, H. Ghayvat</p>
+              <p class="pub__meta"><em>Biomedical Signal Processing and Control, vol. 131, art. 111818, Mar. 2027</em></p>
+              <div class="pub__tags"><span class="tag">Journal article</span></div>
+            </div>
+            <div class="pub__actions"><a class="btn btn--ghost btn--sm" href="https://doi.org/10.1016/j.bspc.2026.111818" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#i-link"/></svg>DOI</a></div>
+          </li>
+          <li class="pub">
+            <div class="pub__year">2026</div>
+            <div>
+              <h4 class="pub__title">Integrated EEG acquisition and modeling system for neurofunctional biomarkers of covert motor intent</h4>
+              <p class="pub__meta">V. Tiwari, S. Khare, S. Banakhede, P. Kushwah, R. Geddam, M. Awais, M. A. Khan, H. Ghayvat, G. Muhammad, N. Xin</p>
+              <p class="pub__meta"><em>Sensing and Bio-Sensing Research, vol. 52, art. 100982, Jun. 2026</em></p>
+              <div class="pub__tags"><span class="tag">Journal article</span></div>
+            </div>
+            <div class="pub__actions"><a class="btn btn--ghost btn--sm" href="https://doi.org/10.1016/j.sbsr.2026.100982" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#i-link"/></svg>DOI</a></div>
+          </li>
+          <li class="pub">
+            <div class="pub__year">2026</div>
+            <div>
+              <h4 class="pub__title">Exploring explainable AI in medical image segmentation: a case study on skin disease detection</h4>
+              <p class="pub__meta">S. Banakhede, V. Tiwari, V. Kumar, U. Mahor</p>
+              <p class="pub__meta"><em>In: Explainable Artificial Intelligence for Medical Data Analytics and Healthcare Applications, G. R. Naik (Ed.), Springer Nature, 2026, pp. 215-233</em></p>
+              <div class="pub__tags"><span class="tag">Book chapter</span></div>
+            </div>
+            <div class="pub__actions"><a class="btn btn--ghost btn--sm" href="https://doi.org/10.1007/978-981-95-3811-9_11" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#i-link"/></svg>DOI</a></div>
+          </li>
+          <li class="pub">
+            <div class="pub__year">2024</div>
+            <div>
+              <h4 class="pub__title">A comprehensive study of pre-trained deep learning models in skin disease classification</h4>
+              <p class="pub__meta">S. Banakhede, V. Tiwari, V. Kumar</p>
+              <p class="pub__meta"><em>Communications in Computer and Information Science, Springer. Presented at AMLDA 2024</em></p>
+              <div class="pub__tags"><span class="tag">Conference paper</span></div>
+            </div>
+            <div class="pub__actions"><a class="btn btn--ghost btn--sm" href="https://doi.org/10.1007/978-3-032-18293-7_2" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#i-link"/></svg>DOI</a></div>
+          </li>
+          <!--PUBS:END-->
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT US ============ -->
+    <section class="section" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="contact-box" data-reveal="scale">
+          <div>
+            <p class="eyebrow">Contact Us</p>
+            <h2 id="contact-title">Get in touch</h2>
+            <p class="lead">We welcome research collaborations, questions about our work, and anyone who would like to join us. Write to us and we will get back to you.</p>
+          </div>
+          <a class="contact-email__link" href="mailto:sarvixalabs@gmail.com">sarvixalabs@gmail.com</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__min">
+        <a class="nav__brand" href="#home" aria-label="Sarvixa Labs home">
+          <img class="brand-logo" src="assets/logo.svg" alt="Sarvixa Labs" width="130" height="38" loading="lazy">
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script type="module" src="js/main.js"></script>
+  <script type="module" src="js/ambient.js?v=20"></script>
+  <script type="module" src="js/hero.js?v=20"></script>
+  <script type="module" src="js/team.js?v=20"></script>
+  <script type="module" src="js/publications.js?v=21"></script>
+</body>
+</html>
