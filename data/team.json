@@ -12,16 +12,16 @@
       "github": "https://github.com/sarang-banakhede"
     }
   },
-  {
-    "name": "Dr. Vibha Tiwari",
-    "role": "Co-founder",
-    "designation": "Assistant Professor, Centre for Artificial Intelligence",
-    "affiliation": "Madhav Institute of Technology and Science",
-    "photo": "assets/team/vibha-tiwari.webp",
-    "links": {
-      "linkedin": "https://www.linkedin.com/in/dr-vibha-tiwari-834b3960/",
-      "scholar": "https://scholar.google.com/citations?user=cV9T4Iwp6YYC&hl=en",
-      "orcid": "https://orcid.org/0000-0002-9772-4392"
-    }
+{
+  "name": "Dr. Vibha Tiwari",
+  "role": "Co-founder",
+  "designation": "Research Advisor",
+  "affiliation": "Sarvixa Labs",
+  "photo": "assets/team/vibha-tiwari.webp",
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/dr-vibha-tiwari-834b3960/",
+    "scholar": "https://scholar.google.com/citations?user=cV9T4Iwp6YYC&hl=en",
+    "orcid": "https://orcid.org/0000-0002-9772-4392"
   }
+}
 ]
